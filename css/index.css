@@ -6,12 +6,6 @@ header {
    padding: 10px 20px;
 }
 
-h1 {
-    font-family: 'Press Start 2P';
-    color: #f25a70;
-    text-shadow: 5px 5px 0 black;
-}
-
 nav {
     text-align: right;
 }
