@@ -7,6 +7,6 @@ div {
 
 }
 
-#box h1 {
+.box .title {
     margin-bottom: 28px;
 }
