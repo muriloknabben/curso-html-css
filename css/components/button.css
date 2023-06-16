@@ -9,6 +9,7 @@
     margin-right: 0;
     transition: transform 050ms linear;
     text-decoration: none;
+    font-family: 'Fira Code';
 }
 
 .button:hover {
