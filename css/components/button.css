@@ -10,6 +10,7 @@
     transition: transform 050ms linear;
     text-decoration: none;
     font-family: 'Fira Code';
+    color: #eee;
 }
 
 .button:hover {
