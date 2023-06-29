@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
        <link rel="stylesheet" href="css/reset.css">
-       <link rel="stylesheet" href="css/components/title.css">
+       <link rel="stylesheet" href="css/components/main-title.css">
        <link rel="stylesheet" href="css/components/subtitle.css">
        <link rel="stylesheet" href="css/components/box.css">
        <link rel="stylesheet" href="css/components/button.css">
@@ -17,10 +17,12 @@
        <link rel="stylesheet" href="css/components/banner.css">
        <link rel="stylesheet" href="css/components/header.css">
        <link rel="stylesheet" href="css/components/section.css">
+       <link rel="stylesheet" href="css/components/Skills-tec.css">
+       <link rel="stylesheet" href="css/components/progress-bar.css">
     </head>
     <body>
         <header>
-            <h1 class="title">MK</h1>
+            <h1 class="main-title">MK</h1>
             <nav>
                 <a class="action" href="" lang="en">Skills</a>
                 <a class="action" href="">Projetos</a>
@@ -33,7 +35,7 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h2 class="title">Murilo Knabben</h2>
+                    <h2 class="main-title">Murilo Knabben</h2>
                     <h3 class="subtitle">FrontEnd Developer</h3>
                 </div>
 
@@ -45,7 +47,17 @@
         </section>
 
         <section class="section">
-            <h2 class="title -second">Skills</h2>
+            <h2 class="main-title -second">Skills</h2>
+
+            <dl class="Skills-tec">
+                <dd class="icon">
+                    <img src="assets/img/ico_html5.png" alt="logo do HTML5 em pixel art">
+                </dd>
+                <dt class="title">HTML</dt>
+                <dd>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
+                </dd>
+            </dl>
         </section>
     </body>
 </html>
