@@ -8,3 +8,7 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-foundi {
+    background-color: #000;
+}
