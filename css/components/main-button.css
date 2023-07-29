@@ -17,6 +17,8 @@
     transform: scale(1.1);
 }
 
-.main-button.-button {
+.main-button.-full {
     width: 100%;
+    font-family: Fira Code;
+    font-size: 30px;
 }
